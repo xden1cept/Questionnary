@@ -16,5 +16,5 @@ window.onclick = function(event){
     }
 }
 function buttonclick(button){
-            alert("Password and login has been send.");
+            alert("Your answers has been send");
         }
