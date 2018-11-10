@@ -21,11 +21,13 @@ header{
 	display: flex;
 }
 .header__logo{
+
 	text-transform: uppercase;
 	color: #fff;
 	font-weight: 800;
 	font-size: 24px;
 	cursor: pointer;
+	margin-bottom: 5%;
 	margin-top: 60px;
 	margin-left: 12%;
 
@@ -83,6 +85,7 @@ nav{
 }
 
 .close{
+	cursor: pointer;
     color: #aaa;
     float: right;
     font-size:28px;
@@ -154,6 +157,9 @@ form{
 	}
 	.modal-content{
 		width: 70%;
+	}
+	.topnav a:hover{
+		border-bottom: none;		
 	}
 }
 @media screen and (max-width: 700px){

@@ -21,87 +21,80 @@
 				<a href="https://github.com/xden1cept/galleryMIT" class="submenu">Gallery</a>
 				<a href="#" class="submenu" id="myBtn" >&#9776;</a>
             </div>
-            <div class="btn">
-            <a href="#" id="btn-link">
-                <div id="myModal" class="modal">
-                    <div class="modal-content">
-                        <span class="close" id="close">&times;</span>
-                        <h2 class="section-title">
-                            Questionnaire </h2>
-                            <form action="#" method="post">
-                                <div class="fields">
-                                    <label>
-                                        <p>Your Name:</p>
-                                        
-                                    <input type="text" class="input" name="client_name" placeholder="Pls enter the name">
-                                    </label>
-                                    <label >
-                                        <p>Your Surname:</p>
-                                        
-                                    <input type="text" class="input" name="client_surname" placeholder="Pls enter the your surname">
-                                    </label>
-                                </div>
-                                <div class="fields">
-                                    <label>
-                                        <p>Date of birth:</p>
-                                        
-                                        <input type="date"class="Calendar"  name="calendar" 
-                                        max="2020-06-04" min="1900-05-29" value="2000-06-01">
-                                    </label>
-                                    <label >
-                                        <p>Gender:</p>
-                                        <div>
-                                            <input type="radio" name="gendre" value="male">Male
-                                            <input type="radio" name="gendre" value="female">Female
-                                        </div>
-                                        
-                                    </label>
-                                </div>
-                                <div class="fields">
-                                    <label >
-                                        <p>Your number:</p>
-                                        
-                                    <input type="text" name="client_number" class="input" placeholder="Pls enter the number">
-                                    </label>
-                                    <label >
-                                        <p>Your Email:</p>
-                                        
-                                    <input type="text" name="client_number" class="input" placeholder="Pls enter the email">
-                                    </label>
-                                </div>
-                                <div class="fields">
-                                        <label >
-                                            <p>Tell about of you:</p>
-                                                <textarea name="about" class="textarea" cols="48" rows="10" maxlength="100"></textarea>
-                                        </label>
-                                </div>
-                                    <div class="fields">
-                                        <label>
-                                            <p>Your Password:</p>
-                                        <input type="text" name ="clientpass" class="input" placeholder="Enter password"
-                                        ></label>
-                                        <label>
-                                                <p>Confirm Password:</p>
-                                            <input type="text" name ="clientpass" class="input" placeholder="Confirm password"
-                                        ></label>
-                                    </div>
-                                    <div class="buttons">
-                                        <button name="submit" class="button" onclick="buttonclick (this)">Send</button>
-                                        <input type="reset" class="button" value="Reset">
-                                    </div>
-                                
-                            </div>
-                    </div>
-            </a>
-        </div>
-    </div>
-    <div class="close"></div>
-    </div>	
-		</nav>
+		</nav>	
     </header>
     <main>
+                        <div id="myModal" class="modal">
+                            <div class="modal-content">
+                                <span class="close" id="close">&times;</span>
+                                <h2 class="section-title">Questionnaire </h2>
+                                    <form action="#" method="post">
+                                        <div class="fields">
+                                            <label>
+                                                <span>Your Name:</span>
+                                                
+                                            <input type="text" class="input" name="client_name" placeholder="Pls enter the name">
+                                            </label>
+                                            <label >
+                                                <span>Your Surname:</span>
+                                                
+                                            <input type="text" class="input" name="client_surname" placeholder="Pls enter the your surname">
+                                            </label>
+                                        </div>
+                                        <div class="fields">
+                                            <label>
+                                                <span>Date of birth:</span>
+                                                
+                                                <input type="date" class="Calendar"  name="calendar" 
+                                                max="2020-06-04" min="1900-05-29" value="2000-06-01">
+                                            </label>
+                                            <span>Gender:</span>
+                                            <label >
+                                                <span>Male</span>
+                                                <input type="radio" name="gendre" value="male" class="radiobutton">
+                                            </label>
+                                            <label>
+                                                <span>Female</span>
+                                                <input type="radio" name="gendre" value="female" class="radiobutton">
+                                            </label>
+                                        </div>
+                                        <div class="fields">
+                                            <label >
+                                                <span>Your number:</span>
+                                                
+                                            <input type="text" name="client_number" class="input" placeholder="Pls enter the number">
+                                            </label>
+                                            <label >
+                                                <span>Your Email:</span>
+                                                
+                                            <input type="text" name="client_number" class="input" placeholder="Pls enter the email">
+                                            </label>
+                                        </div>
+                                        <div class="fields">
+                                                <label >
+                                                    <span>Tell about of you:</span>
+                                                        <textarea name="about" class="textarea" cols="48" rows="10" maxlength="100"></textarea>
+                                                </label>
+                                        </div>
+                                            <div class="fields">
+                                                <label>
+                                                    <span>Your Password:</span>
+                                                <input type="text" name ="clientpass" class="input" placeholder="Enter password"
+                                                ></label>
+                                                <label>
+                                                        <span>Confirm Password:</span>
+                                                    <input type="text" name ="clientpass" class="input" placeholder="Confirm password"
+                                                ></label>
+                                            </div>
+                                            <div class="buttons">
+                                                <button name="submit" class="button" onclick="buttonclick (this)">Send</button>
+                                                <input type="reset" class="button" value="Reset">
+                                            </div>
+                                    </form>  
+                                    </div>
+                            </div>
         <div class="main__welcome">
-            <h1>WELCOME ON MYSITE</span></h1>
+            <h1>WELCOME ON MYSITE</h1>
             <p>Im a digital man with 2 mounths of experience</p>
             
         </div>
